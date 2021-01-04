@@ -17,7 +17,7 @@ function GetCast(addCast) {
             alert(json.booking.name + " added!");
         });
 }
-
+//
 window.addEventListener("load", function () {
     document.getElementById("addCast").addEventListener("click", function () {
         let addCast = document.getElementById("addCast").value;
