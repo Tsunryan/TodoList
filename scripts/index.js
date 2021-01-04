@@ -44,8 +44,6 @@ function GetCast() {
 
                 let li = castList.insertRow(castList.rows.length);
                 li.innerHTML = "<li><a href='https://www.google.com/search?q=" + cName + "'>" + cName + "</a></li>"
-
-                castName.push(buttonId);
             }
         }
 window.addEventListener("load", function () {
