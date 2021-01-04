@@ -14,7 +14,7 @@ function GetCast(addCast) {
     })
         .then((response) => response.json())
         .then(json => {
-            alert(json.booking.name + " added!");
+            alert(json.castName.addCast + " added!");
         });
 }
 //
